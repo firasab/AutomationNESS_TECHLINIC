@@ -1,0 +1,30 @@
+
+<suite name="Suite">
+
+    <test name="Test1">
+        <parameter name="number1" value="0"></parameter>
+        <parameter name="number2" value="1"></parameter>
+        <parameter name="sum" value="1"></parameter>
+        <classes>
+            <class name="TestNG_test"/>
+        </classes>
+    </test>
+
+    <test name="Test2">
+        <parameter name="number1" value="-1"></parameter>
+        <parameter name="number2" value="2"></parameter>
+        <parameter name="sum" value="1"></parameter>
+        <classes>
+            <class name="TestNG_test"/>
+        </classes>
+    </test>
+
+    <test name="Test3">
+        <parameter name="number1" value="3"></parameter>
+        <parameter name="number2" value="5"></parameter>
+        <parameter name="sum" value="8"></parameter>
+        <classes>
+            <class name="TestNG_test"/>
+        </classes>
+    </test>
+</suite>

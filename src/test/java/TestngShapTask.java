@@ -126,80 +126,122 @@ public class TestngShapTask {
 
     @Test(dataProvider = "squareData")
     public void testSquareData(String length, String area ) {
-        double lengthDouble = Double.parseDouble(length);
-        double areaDouble = Double.parseDouble(area);
-        Square square = new Square(lengthDouble);
-        assertEquals(square.calculateArea(), areaDouble);
+        try {
+            double lengthDouble = Double.parseDouble(length);
+            double areaDouble = Double.parseDouble(area);
+            Square square = new Square(lengthDouble);
+            assertEquals(square.calculateArea(), areaDouble);
+        } catch (NumberFormatException e) {
+            System.out.println("The file has String that cant be an Integer");
+        }
+
 
     }
 
     @Test(dataProvider = "rectangleData")
     public void testRectangleData(String height, String width,String area ) {
-        double heightDouble = Double.parseDouble(height);
-        double widthDouble = Double.parseDouble(width);
-        double areaDouble = Double.parseDouble(area);
-        Rectangle rectangle = new Rectangle(heightDouble,widthDouble );
-        assertEquals(rectangle.calculateArea(), areaDouble);
+        try {
+            double heightDouble = Double.parseDouble(height);
+            double widthDouble = Double.parseDouble(width);
+            double areaDouble = Double.parseDouble(area);
+            Rectangle rectangle = new Rectangle(heightDouble,widthDouble );
+            assertEquals(rectangle.calculateArea(), areaDouble);
+        } catch (NumberFormatException e) {
+            System.out.println("The file has String that cant be an Integer");
+        }
+
 
     }
 
     @Test(dataProvider = "circleData")
     public void testCircleData(String diameter, String area ) {
-        double diameterDouble = Double.parseDouble(diameter);
-        double areaDouble = Double.parseDouble(area);
-        Circle circle = new Circle(diameterDouble );
-        assertEquals(circle.calculateArea(), areaDouble);
+        try {
+            double diameterDouble = Double.parseDouble(diameter);
+            double areaDouble = Double.parseDouble(area);
+            Circle circle = new Circle(diameterDouble );
+            assertEquals(circle.calculateArea(), areaDouble);
+        } catch (NumberFormatException e) {
+            System.out.println("The file has String that cant be an Integer");
+        }
+
+
 
     }
 
     @Test(dataProvider = "ellipseData")
     public void testEllipseData(String Half_the_length_of_the_main_axis, String Half_the_length_of_the_secondary_axis,String area ) {
-        double Half_the_length_of_the_main_axis_Double = Double.parseDouble(Half_the_length_of_the_main_axis);
-        double Half_the_length_of_the_secondary_axis_Double = Double.parseDouble(Half_the_length_of_the_secondary_axis);
-        double areaDouble = Double.parseDouble(area);
-        Ellipse ellipse = new Ellipse(Half_the_length_of_the_main_axis_Double,Half_the_length_of_the_secondary_axis_Double );
-        assertEquals(ellipse.calculateArea(), areaDouble);
+        try {
+            double Half_the_length_of_the_main_axis_Double = Double.parseDouble(Half_the_length_of_the_main_axis);
+            double Half_the_length_of_the_secondary_axis_Double = Double.parseDouble(Half_the_length_of_the_secondary_axis);
+            double areaDouble = Double.parseDouble(area);
+            Ellipse ellipse = new Ellipse(Half_the_length_of_the_main_axis_Double,Half_the_length_of_the_secondary_axis_Double );
+            assertEquals(ellipse.calculateArea(), areaDouble);
+        } catch (NumberFormatException e) {
+            System.out.println("The file has String that cant be an Integer");
+        }
+
 
     }
 
     @Test(dataProvider = "parallelogramData")
     public void testParallelogramData(String length, String width, String area ) {
-        double lengthDouble = Double.parseDouble(length);
-        double widthDouble = Double.parseDouble(width);
-        double areaDouble = Double.parseDouble(area);
-        Parallelogram parallelogram = new Parallelogram(lengthDouble,widthDouble);
-        assertEquals(parallelogram.calculateArea(), areaDouble);
+        try {
+            double lengthDouble = Double.parseDouble(length);
+            double widthDouble = Double.parseDouble(width);
+            double areaDouble = Double.parseDouble(area);
+            Parallelogram parallelogram = new Parallelogram(lengthDouble,widthDouble);
+            assertEquals(parallelogram.calculateArea(), areaDouble);
+
+        } catch (NumberFormatException e) {
+            System.out.println("The file has String that cant be an Integer");
+        }
+
 
     }
 
     @Test(dataProvider = "sectorData")
     public void testSectorData(String diameter, String angle, String area ) {
-        double lengthDouble = Double.parseDouble(diameter);
-        double angleDouble = Double.parseDouble(angle);
-        double areaDouble = Double.parseDouble(area);
-        Sector sector = new Sector(lengthDouble, angleDouble );
-        assertEquals(sector.calculateArea(), areaDouble);
+        try {
+            double lengthDouble = Double.parseDouble(diameter);
+            double angleDouble = Double.parseDouble(angle);
+            double areaDouble = Double.parseDouble(area);
+            Sector sector = new Sector(lengthDouble, angleDouble );
+            assertEquals(sector.calculateArea(), areaDouble);
+        } catch (NumberFormatException e) {
+            System.out.println("The file has String that cant be an Integer");
+        }
+
 
     }
 
     @Test(dataProvider = "trapezoidData")
     public void testTrapezoidData(String smallWidth, String bigWidth, String height, String area ) {
-        double smallWidthDouble = Double.parseDouble(smallWidth);
-        double bigWidthDouble = Double.parseDouble(bigWidth);
-        double heightDouble = Double.parseDouble(height);
-        double areaDouble = Double.parseDouble(area);
-        Trapezoid trapezoid = new Trapezoid(smallWidthDouble, bigWidthDouble, heightDouble );
-        assertEquals(trapezoid.calculateArea(), areaDouble);
+        try {
+            double smallWidthDouble = Double.parseDouble(smallWidth);
+            double bigWidthDouble = Double.parseDouble(bigWidth);
+            double heightDouble = Double.parseDouble(height);
+            double areaDouble = Double.parseDouble(area);
+            Trapezoid trapezoid = new Trapezoid(smallWidthDouble, bigWidthDouble, heightDouble );
+            assertEquals(trapezoid.calculateArea(), areaDouble);
+        } catch (NumberFormatException e) {
+            System.out.println("The file has String that cant be an Integer");
+        }
+
 
     }
 
     @Test(dataProvider = "triangleData")
     public void testTriangleData(String height, String width, String area ) {
-        double heightDouble = Double.parseDouble(height);
-        double widthDouble = Double.parseDouble(width);
-        double areaDouble = Double.parseDouble(area);
-        Triangle triangle = new Triangle(heightDouble, widthDouble );
-        assertEquals(triangle.calculateArea(), areaDouble);
+        try {
+            double heightDouble = Double.parseDouble(height);
+            double widthDouble = Double.parseDouble(width);
+            double areaDouble = Double.parseDouble(area);
+            Triangle triangle = new Triangle(heightDouble, widthDouble );
+            assertEquals(triangle.calculateArea(), areaDouble);
+        } catch (NumberFormatException e) {
+            System.out.println("The file has String that cant be an Integer");
+        }
+
 
     }
 

@@ -6,7 +6,7 @@ public class Triangle {
 
     public Triangle (double height, double width){
         try {
-            if (height > 0 && width > 0) {
+            if (height > 0 && width > 0 ) {
                 this.height = height;
                 this.width = width;
             } else {

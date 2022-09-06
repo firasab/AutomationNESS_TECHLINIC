@@ -1,0 +1,79 @@
+Triangle TestCases:
+1. height = 0 
+2. height < 0
+3. height > 0 
+4. height not a number
+5. width > 0 
+6. width = 0
+7. width < 0
+8. width not a number
+-------------------------------------------------------------------------------
+Trapezoid TestCases:
+1.  smallWidth = 0 
+2.  smallWidth < 0
+3.  smallWidth > 0
+4.  smallWidth not a number
+5.  bigWidth < 0
+6.  bigWidth = 0
+7.  bigWidth > 0
+8.  bigWidth not a number
+9.  height = 0
+10. height < 0 
+11. height > 0
+12. height not a number
+-------------------------------------------------------------------------------
+Square TestCases:
+1. length = 0 
+2. length < 0
+3. length > 0
+4. length not a number
+-------------------------------------------------------------------------------
+Sector TestCases:
+1. diameter = 0 
+2. diameter < 0
+3. diameter > 0 
+4. diameter not a number
+5. angle < 0
+6. angle = 0
+7. angle > 0
+8. angle not a number
+-------------------------------------------------------------------------------
+Rectangle TestCases:
+1. height = 0 
+2. height < 0
+3. height > 0
+4. height not a number
+5. width = 0
+6. width < 0
+7. width > 0
+8. width not a number
+-------------------------------------------------------------------------------
+Parallelogram TestCases:
+1. length = 0 
+2. length < 0
+3. length > 0
+4. length not a number
+5. width = 0
+6. width < 0
+7. width > 0
+8. width not a number
+-------------------------------------------------------------------------------
+Ellipse TestCases:
+1. Half_the_length_of_the_main_axis = 0 
+2. Half_the_length_of_the_main_axis < 0
+3. Half_the_length_of_the_main_axis > 0
+4. Half_the_length_of_the_main_axis not a number
+5. Half_the_length_of_the_secondary_axis = 0
+6. Half_the_length_of_the_secondary_axis < 0
+7. Half_the_length_of_the_secondary_axis > 0
+8. Half_the_length_of_the_secondary_axis not a number
+-------------------------------------------------------------------------------
+Circle TestCases:
+1. diameter = 0 
+2. diameter < 0
+3. diameter > 0
+4. diameter not a number
+
+
+
+

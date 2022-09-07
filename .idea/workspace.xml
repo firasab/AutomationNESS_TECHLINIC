@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13d00197-904e-4862-a54c-9a94e75e30fa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNGShapTaskCircle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNGShapTaskSquare.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestingShapeTaskWithParamsCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestingShapeTaskWithParamsEllipse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestingShapeTaskWithParamsParallelogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestingShapeTaskWithParamsRectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestingShapeTaskWithParamsSector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestingShapeTaskWithParamsSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestingShapeTaskWithParamsTrapezoid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestingShapeTaskWithParamsTriangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Task_TestNG/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task_TestNG/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCaseParallelogram.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCaseParallelogram.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCaseSquare.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCaseSquare.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCaseTrapezoid.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCaseTrapezoid.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestngShapTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestngShapTask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,25 +45,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Public/Desktop/TestNG/src/main/java/TestngShapTask&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Public/Desktop/TestNG/src/test/java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="TestNG_test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Public\Desktop\TestNG\src\test\java" />
       <recent name="C:\Users\Public\Desktop\TestNG\src\main\java\TestngShapTask" />
       <recent name="C:\Users\Public\Desktop\TestNG\src\main\java" />
-      <recent name="C:\Users\Public\Desktop\TestNG\src\test\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Public\Desktop\TestNG\src\test" />
@@ -71,45 +76,42 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestngShapTask">
-    <configuration name="TestNGSquare (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/Public/Desktop/TestNG/src/test/java/TestNGShapTaskSquare.xml">
+    <configuration name="C:/Users/Public/Desktop/TestNG/src/test/java/TestNGShapTaskCircle.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestNGSquare" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/TestNGShapTaskCircle.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNGSquare (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Public/Desktop/TestNG/src/test/java/TestNGShapTaskSquare.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestNGSquare" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/TestNGShapTaskSquare.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNGSquare" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Public/Desktop/TestNG/src/test/java/TestNGShapTask.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestNGSquare" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/TestNGShapTask.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNGSquare.testData" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestingShapeTaskWithParams.testWithParamsCircle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestNGSquare" />
-      <option name="METHOD_NAME" value="testData" />
+      <option name="MAIN_CLASS_NAME" value="TestingShapeTaskWithParams" />
+      <option name="METHOD_NAME" value="testWithParamsCircle" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -130,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Public/Desktop/TestNG/src/test/java/TestNGShapTaskSquare.xml" />
+        <item itemvalue="TestNG.C:/Users/Public/Desktop/TestNG/src/test/java/TestNGShapTaskCircle.xml" />
+        <item itemvalue="TestNG.C:/Users/Public/Desktop/TestNG/src/test/java/TestNGShapTask.xml" />
+        <item itemvalue="TestNG.TestingShapeTaskWithParams.testWithParamsCircle" />
         <item itemvalue="TestNG.TestngShapTask" />
-        <item itemvalue="TestNG.TestNGSquare (2)" />
-        <item itemvalue="TestNG.TestNGSquare.testData" />
-        <item itemvalue="TestNG.TestNGSquare" />
-        <item itemvalue="TestNG.TestNGSquare (1)" />
       </list>
     </recent_temporary>
   </component>

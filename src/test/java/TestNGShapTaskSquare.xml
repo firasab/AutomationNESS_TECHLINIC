@@ -1,0 +1,457 @@
+
+<suite name="Suite">
+
+    //////////////////////////////////////////////      Square    ///////////////////////////////////////////////////////
+    <test name="SquareTest1">
+        <parameter name="length" value="1"></parameter>
+        <parameter name="area" value="0"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsSquare"/>
+        </classes>
+    </test>
+
+    <test name="SquareTest2">
+        <parameter name="length" value="-4"></parameter>
+        <parameter name="area" value="0"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsSquare"/>
+        </classes>
+    </test>
+
+    <test name="SquareTest3">
+        <parameter name="length" value="2"></parameter>
+        <parameter name="area" value="4"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsSquare"/>
+        </classes>
+    </test>
+
+    <test name="SquareTest4">
+        <parameter name="length" value="-8"></parameter>
+        <parameter name="area" value="1"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsSquare"/>
+        </classes>
+    </test>
+
+    <test name="SquareTest5">
+        <parameter name="length" value="gg"></parameter>
+        <parameter name="area" value="2"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsSquare"/>
+        </classes>
+    </test>
+
+    <test name="SquareTest6">
+        <parameter name="length" value="gg"></parameter>
+        <parameter name="area" value="0"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsSquare"/>
+        </classes>
+    </test>
+
+    //////////////////////////////////////////////      Circle    ///////////////////////////////////////////////////////
+    <test name="CircleTest1">
+        <parameter name="diameter" value="0"></parameter>
+        <parameter name="area" value="0"></parameter>
+
+        <classes>
+            <class name="TestingShapeTaskWithParamsCircle"/>
+        </classes>
+    </test>
+
+    <test name="CircleTest2">
+        <parameter name="diameter" value="-4"></parameter>
+        <parameter name="area" value="0"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsCircle"/>
+        </classes>
+    </test>
+
+    <test name="CircleTest3">
+        <parameter name="diameter" value="2"></parameter>
+        <parameter name="area" value="4"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsCircle"/>
+        </classes>
+    </test>
+
+    <test name="CircleTest4">
+        <parameter name="diameter" value="-8"></parameter>
+        <parameter name="area" value="1"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsCircle"/>
+        </classes>
+    </test>
+
+    <test name="CircleTest5">
+        <parameter name="diameter" value="gg"></parameter>
+        <parameter name="area" value="2"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsCircle"/>
+        </classes>
+    </test>
+
+    <test name="CircleTest6">
+        <parameter name="diameter" value="gg"></parameter>
+        <parameter name="area" value="0"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsCircle"/>
+        </classes>
+    </test>
+
+    //////////////////////////////////////////////      Ellipse    ///////////////////////////////////////////////////////
+    <test name="EllipseTest1">
+        <parameter name="Half_the_length_of_the_main_axis" value="0"></parameter>
+        <parameter name="Half_the_length_of_the_secondary_axis" value="0"></parameter>
+        <parameter name="area" value="0"></parameter>
+
+        <classes>
+            <class name="TestingShapeTaskWithParamsEllipse"/>
+        </classes>
+    </test>
+
+    <test name="EllipseTest2">
+        <parameter name="Half_the_length_of_the_main_axis" value="-4"></parameter>
+        <parameter name="Half_the_length_of_the_secondary_axis" value="0"></parameter>
+        <parameter name="area" value="0"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsEllipse"/>
+        </classes>
+    </test>
+
+    <test name="EllipseTest3">
+        <parameter name="Half_the_length_of_the_main_axis" value="2"></parameter>
+        <parameter name="Half_the_length_of_the_secondary_axis" value="2"></parameter>
+        <parameter name="area" value="12.56"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsEllipse"/>
+        </classes>
+    </test>
+
+    <test name="EllipseTest4">
+        <parameter name="Half_the_length_of_the_main_axis" value="-8"></parameter>
+        <parameter name="Half_the_length_of_the_secondary_axis" value="0"></parameter>
+        <parameter name="area" value="1"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsEllipse"/>
+        </classes>
+    </test>
+
+    <test name="EllipseTest5">
+        <parameter name="Half_the_length_of_the_main_axis" value="gg"></parameter>
+        <parameter name="Half_the_length_of_the_secondary_axis" value="1"></parameter>
+        <parameter name="area" value="2"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsEllipse"/>
+        </classes>
+    </test>
+
+    <test name="EllipseTest6">
+        <parameter name="Half_the_length_of_the_main_axis" value="gg"></parameter>
+        <parameter name="Half_the_length_of_the_secondary_axis" value="2"></parameter>
+        <parameter name="area" value="0"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsEllipse"/>
+        </classes>
+    </test>
+
+    //////////////////////////////////////////////      Parallelogram    ///////////////////////////////////////////////////////
+    <test name="ParallelogramTest1">
+        <parameter name="length" value="0"></parameter>
+        <parameter name="width" value="5"></parameter>
+        <parameter name="area" value="0"></parameter>
+
+        <classes>
+            <class name="TestingShapeTaskWithParamsParallelogram"/>
+        </classes>
+    </test>
+
+
+    <test name="ParallelogramTest2">
+        <parameter name="length" value="-4"></parameter>
+        <parameter name="width" value="4"></parameter>
+        <parameter name="area" value="0"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsParallelogram"/>
+        </classes>
+    </test>
+
+    <test name="ParallelogramTest3">
+        <parameter name="length" value="4"></parameter>
+        <parameter name="width" value="-2"></parameter>
+        <parameter name="area" value="1"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsParallelogram"/>
+        </classes>
+    </test>
+
+    <test name="ParallelogramTest4">
+        <parameter name="length" value="2"></parameter>
+        <parameter name="width" value="4"></parameter>
+        <parameter name="area" value="8"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsParallelogram"/>
+        </classes>
+    </test>
+
+    <test name="ParallelogramTest5">
+        <parameter name="length" value="gg"></parameter>
+        <parameter name="width" value="1"></parameter>
+        <parameter name="area" value="5"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsParallelogram"/>
+        </classes>
+    </test>
+
+    <test name="ParallelogramTest6">
+        <parameter name="length" value="gg"></parameter>
+        <parameter name="width" value="6"></parameter>
+        <parameter name="area" value="0"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsParallelogram"/>
+        </classes>
+    </test>
+
+    //////////////////////////////////////////////      Rectangle    ///////////////////////////////////////////////////////
+    <test name="RectangleTest1">
+        <parameter name="height" value="0"></parameter>
+        <parameter name="width" value="0"></parameter>
+        <parameter name="area" value="0"></parameter>
+
+        <classes>
+            <class name="TestingShapeTaskWithParamsRectangle"/>
+        </classes>
+    </test>
+
+
+    <test name="RectangleTest2">
+        <parameter name="height" value="-4"></parameter>
+        <parameter name="width" value="4"></parameter>
+        <parameter name="area" value="0"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsRectangle"/>
+        </classes>
+    </test>
+
+    <test name="RectangleTest3">
+        <parameter name="height" value="4"></parameter>
+        <parameter name="width" value="-2"></parameter>
+        <parameter name="area" value="1"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsRectangle"/>
+        </classes>
+    </test>
+
+    <test name="RectangleTest4">
+        <parameter name="height" value="2"></parameter>
+        <parameter name="width" value="4"></parameter>
+        <parameter name="area" value="8"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsRectangle"/>
+        </classes>
+    </test>
+
+    <test name="RectangleTest5">
+        <parameter name="height" value="gg"></parameter>
+        <parameter name="width" value="1"></parameter>
+        <parameter name="area" value="5"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsRectangle"/>
+        </classes>
+    </test>
+
+    <test name="RectangleTest6">
+        <parameter name="height" value="gg"></parameter>
+        <parameter name="width" value="6"></parameter>
+        <parameter name="area" value="0"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsRectangle"/>
+        </classes>
+    </test>
+
+
+    //////////////////////////////////////////////      Sector    ///////////////////////////////////////////////////////
+    <test name="SectorTest1">
+        <parameter name="diameter" value="0"></parameter>
+        <parameter name="angle" value="0"></parameter>
+        <parameter name="area" value="0"></parameter>
+
+        <classes>
+            <class name="TestingShapeTaskWithParamsSector"/>
+        </classes>
+    </test>
+
+
+    <test name="SectorTest2">
+        <parameter name="diameter" value="-4"></parameter>
+        <parameter name="angle" value="4"></parameter>
+        <parameter name="area" value="0"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsSector"/>
+        </classes>
+    </test>
+
+    <test name="SectorTest3">
+        <parameter name="diameter" value="4"></parameter>
+        <parameter name="angle" value="-2"></parameter>
+        <parameter name="area" value="1"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsSector"/>
+        </classes>
+    </test>
+
+    <test name="SectorTest4">
+        <parameter name="diameter" value="2"></parameter>
+        <parameter name="angle" value="4"></parameter>
+        <parameter name="area" value="8"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsSector"/>
+        </classes>
+    </test>
+
+    <test name="SectorTest5">
+        <parameter name="diameter" value="gg"></parameter>
+        <parameter name="angle" value="1"></parameter>
+        <parameter name="area" value="5"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsSector"/>
+        </classes>
+    </test>
+
+    <test name="SectorTest6">
+        <parameter name="diameter" value="gg"></parameter>
+        <parameter name="angle" value="6"></parameter>
+        <parameter name="area" value="0"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsSector"/>
+        </classes>
+    </test>
+
+
+    //////////////////////////////////////////////      Trapezoid    ///////////////////////////////////////////////////////
+    <test name="TrapezoidTest1">
+        <parameter name="smallWidth" value="0"></parameter>
+        <parameter name="bigWidth" value="0"></parameter>
+        <parameter name="height" value="0"></parameter>
+        <parameter name="area" value="0"></parameter>
+
+        <classes>
+            <class name="TestingShapeTaskWithParamsTrapezoid"/>
+        </classes>
+    </test>
+
+
+    <test name="TrapezoidTest2">
+        <parameter name="smallWidth" value="-4"></parameter>
+        <parameter name="bigWidth" value="4"></parameter>
+        <parameter name="height" value="5"></parameter>
+        <parameter name="area" value="0"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsTrapezoid"/>
+        </classes>
+    </test>
+
+    <test name="TrapezoidTest3">
+        <parameter name="smallWidth" value="4"></parameter>
+        <parameter name="bigWidth" value="-2"></parameter>
+        <parameter name="height" value="5"></parameter>
+        <parameter name="area" value="1"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsTrapezoid"/>
+        </classes>
+    </test>
+
+    <test name="TrapezoidTest4">
+        <parameter name="smallWidth" value="2"></parameter>
+        <parameter name="bigWidth" value="4"></parameter>
+        <parameter name="height" value="3"></parameter>
+        <parameter name="area" value="9"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsTrapezoid"/>
+        </classes>
+    </test>
+
+    <test name="TrapezoidTest5">
+        <parameter name="smallWidth" value="gg"></parameter>
+        <parameter name="bigWidth" value="1"></parameter>
+        <parameter name="height" value="5"></parameter>
+        <parameter name="area" value="5"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsTrapezoid"/>
+        </classes>
+    </test>
+
+    <test name="TrapezoidTest6">
+        <parameter name="smallWidth" value="gg"></parameter>
+        <parameter name="bigWidth" value="6"></parameter>
+        <parameter name="height" value="7"></parameter>
+        <parameter name="area" value="0"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsTrapezoid"/>
+        </classes>
+    </test>
+
+
+    //////////////////////////////////////////////      Triangle    ///////////////////////////////////////////////////////
+    <test name="TriangleTest1">
+        <parameter name="height" value="0"></parameter>
+        <parameter name="width" value="0"></parameter>
+        <parameter name="area" value="0"></parameter>
+
+        <classes>
+            <class name="TestingShapeTaskWithParamsTriangle"/>
+        </classes>
+    </test>
+
+
+    <test name="TriangleTest2">
+        <parameter name="height" value="5"></parameter>
+        <parameter name="width" value="-2"></parameter>
+        <parameter name="area" value="0"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsTriangle"/>
+        </classes>
+    </test>
+
+    <test name="TriangleTest3">
+        <parameter name="height" value="5"></parameter>
+        <parameter name="width" value="0"></parameter>
+        <parameter name="area" value="1"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsTriangle"/>
+        </classes>
+    </test>
+
+    <test name="TriangleTest4">
+        <parameter name="height" value="3"></parameter>
+        <parameter name="width" value="2"></parameter>
+        <parameter name="area" value="3"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsTriangle"/>
+        </classes>
+    </test>
+
+    <test name="TriangleTest5">
+        <parameter name="height" value="5"></parameter>
+        <parameter name="width" value="gg"></parameter>
+        <parameter name="area" value="5"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsTriangle"/>
+        </classes>
+    </test>
+
+    <test name="TriangleTest6">
+        <parameter name="height" value="7"></parameter>
+        <parameter name="width" value="gg"></parameter>
+        <parameter name="area" value="0"></parameter>
+        <classes>
+            <class name="TestingShapeTaskWithParamsTriangle"/>
+        </classes>
+    </test>
+
+
+
+
+
+</suite>

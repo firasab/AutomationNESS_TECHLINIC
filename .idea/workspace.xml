@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13d00197-904e-4862-a54c-9a94e75e30fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestNGShapTaskCircle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestNGShapTaskSquare.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestingShapeTaskWithParamsCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestingShapeTaskWithParamsEllipse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestingShapeTaskWithParamsParallelogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestingShapeTaskWithParamsRectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestingShapeTaskWithParamsSector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestingShapeTaskWithParamsSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestingShapeTaskWithParamsTrapezoid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestingShapeTaskWithParamsTriangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestNGShapTaskCircle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestNGShapTaskSquare.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNGShapTaskByParamsAllShaps.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestingShapeTaskWithParamsCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestingShapeTaskWithParamsCircle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +60,7 @@
       <recent name="C:\Users\Public\Desktop\TestNG\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Public\Desktop\TestNG\src\test\java\TestNG" />
       <recent name="C:\Users\Public\Desktop\TestNG\src\test" />
       <recent name="C:\Users\Public\Desktop\TestNG\src\test\java" />
     </key>
@@ -76,7 +71,17 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Public/Desktop/TestNG/src/test/java/TestNGShapTaskSquare.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/Public/Desktop/TestNG/src/test/java/TestNGShapTaskByParamsAllShaps.xml">
+    <configuration name="C:/Users/Public/Desktop/TestNG/src/test/java/TestNGShapTaskByParamsAllShaps.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/TestNGShapTaskByParamsAllShaps.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/Public/Desktop/TestNG/src/test/java/TestNGShapTaskCircle.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/TestNGShapTaskCircle.xml" />
@@ -107,23 +112,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestingShapeTaskWithParams.testWithParamsCircle" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Public/Desktop/TestNG/src/test/java/TestNG_test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestingShapeTaskWithParams" />
-      <option name="METHOD_NAME" value="testWithParamsCircle" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestngShapTask" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNG" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestngShapTask" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/TestNG_test.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -132,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Public/Desktop/TestNG/src/test/java/TestNGShapTaskByParamsAllShaps.xml" />
+        <item itemvalue="TestNG.C:/Users/Public/Desktop/TestNG/src/test/java/TestNG_test.xml" />
         <item itemvalue="TestNG.C:/Users/Public/Desktop/TestNG/src/test/java/TestNGShapTaskSquare.xml" />
         <item itemvalue="TestNG.C:/Users/Public/Desktop/TestNG/src/test/java/TestNGShapTaskCircle.xml" />
         <item itemvalue="TestNG.C:/Users/Public/Desktop/TestNG/src/test/java/TestNGShapTask.xml" />
-        <item itemvalue="TestNG.TestingShapeTaskWithParams.testWithParamsCircle" />
-        <item itemvalue="TestNG.TestngShapTask" />
       </list>
     </recent_temporary>
   </component>

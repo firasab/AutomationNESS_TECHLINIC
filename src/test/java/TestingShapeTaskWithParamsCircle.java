@@ -6,6 +6,7 @@ import static org.testng.Assert.assertEquals;
 
 public class TestingShapeTaskWithParamsCircle {
 
+
     @Parameters({ "diameter", "area" })
     @Test
     public void testWithParamsCircle(String diameter, String area) throws Exception {
